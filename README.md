@@ -1,6 +1,2 @@
 # Animals
-Ovaj program omogućava zoološkom vrtu praćenje životinja.
-Ovaj sistem sadrži klasu Životinja koja ima svoj id koji predstavlja šifru pod kojom se životinja vodi u bazi podataka, te ime koji predstavlja ime životinje.
-U slučaju da se konstruktoru ili setteru proslijedi prazno ime ili id treba baciti IllegalArgumentException sa tekstom "Ime ne može biti prazno" odnosno "Id ne može biti prazan".
-Klase Pas i Mačka su naslijeđene iz klase Životinja.
-Klase Vuk, DomaćiPas su naslijeđeni iz klase Pas, dok su klase Lav, Tigar, DomaćaMačka naslijeđene iz klase Mačka.
+This program allows you to track the animals in the zoo. This system contains the Animal class, which has its id, which represents the code under which the animal is kept in the database, and the name, which represents the name of the animal. If an empty name or id is passed to the constructor or setter, an IllegalArgumentException with the text "Name cannot be empty" or "Id cannot be empty" should be thrown. The Dog and Cat classes are inherited from the Animal class. The Wolf, DomesticDog classes are inherited from the Dog class, while the Lion, Tiger, DomesticCat classes are inherited from the Cat class.
